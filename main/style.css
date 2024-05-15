@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(207, 242, 246);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 30px 0px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(47, 214, 214, 0.874), rgb(140, 17, 223));
+    max-width: 470px;
+    border-radius: 20px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.search-bar input{
+    width: 90%;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background: rgb(191, 207, 215);
+}
+
+.search-btn{
+    width: 45px;
+    height: 45px;
+    border-color:  rgb(2, 132, 245);
+    color:  rgb(2, 132, 245);
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+img{
+    width: 150px;
+}
+.weather{
+    margin-top:  40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    display: none;
+    text-align: center;
+}
+.temp{
+    color: white;
+    font-size: 70px;
+    margin: 20px;
+}
+.city{
+    color: white;
+    font-size: 50px;
+    margin: 5px 0px;
+}
+.details{
+    display: flex;
+    margin-top: 20px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+.col img{
+    width: 50px;
+    margin-right: 3px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.col span{
+    display: block;
+    font-size: 20px;
+    padding: 10px ;
+}
+.first-col{
+    margin-right: 30px;
+}
+.error img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.error{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    display: none;
+}
